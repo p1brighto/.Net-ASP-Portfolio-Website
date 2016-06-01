@@ -13,5 +13,10 @@ namespace Assignment_1_Portfolio_website
         {
 
         }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
     }
 }

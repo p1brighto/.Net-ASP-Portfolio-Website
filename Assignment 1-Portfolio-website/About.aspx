@@ -1,16 +1,3 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Assignment_1_Portfolio_website.About" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
-</body>
-</html>
+﻿<%@ Page Title="About Me" Language="C#" MasterPageFile="~/SiteMaster.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Assignment_1_Portfolio_website.About" %>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+</asp:Content>

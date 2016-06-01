@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="Assignment_1_Portfolio_website.SiteMaster" %>
-
+<%@ Register Src="~/Navbar.ascx" TagName="Navbar" TagPrefix="pa1" %>
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
@@ -17,6 +17,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+    <pa1:Navbar runat="server"></pa1:Navbar>
     <div>
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
