@@ -82,6 +82,14 @@
     <Content Include="Default.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\work7.PNG" />
+    <Content Include="Images\work6.PNG" />
+    <Content Include="Images\work5.PNG" />
+    <Content Include="Images\work4.PNG" />
+    <Content Include="Images\work3.PNG" />
+    <Content Include="Images\work2.PNG" />
+    <Content Include="Images\work1.PNG" />
+    <Content Include="Images\home-image1.jpg" />
     <Content Include="Navbar.ascx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

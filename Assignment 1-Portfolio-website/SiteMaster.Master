@@ -6,7 +6,6 @@
     <meta charset="utf-8"/>
     <meta name="viewport"content="width=device-width,initial-scale=1"/>
     <title></title>
-
     <!-- CSS Section -->
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
@@ -15,19 +14,33 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
+<!-- Body strats -->
 <body>
     <form id="form1" runat="server">
+    <!-- links navbar -->
     <pa1:Navbar runat="server"></pa1:Navbar>
     <div>
+        <!-- links the different pages -->
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
     </form>
-
+    <!-- Footer -->
+    <footer style="margin-top:20px">
+        <div class="row">
+            <div class="alert alert-info">
+                <div class="text-center">
+                    &copy; 2016-All rights reserved by <strong>Brighto Paul</strong>
+                </div>
+            </div> 
+        </div>
+	</footer>
+    <!-- End Footer -->
     <!-- JavaScript -->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/app.js"></script>
 </body>
+<!-- Body end -->
 </html>
